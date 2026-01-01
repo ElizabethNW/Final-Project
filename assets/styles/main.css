@@ -1,5 +1,59 @@
 <!-- General Styles -->
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7faff;
+    color: #1a1a1a;
+    padding: 1rem
+}
+
+h1, h2{
+    color: #1f3c88;
+    margin-bottom: 1rem;
+    font-weight: 600;}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+p{
+    margin-bottom: 1rem;
+    color: #2a2a2a;
+}
+
+section{
+    margin-bottom: 3rem;
+}
 
 <!-- Form -->
 form div{
