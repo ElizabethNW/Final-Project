@@ -163,7 +163,19 @@ h3{
 }
 .map-container{
     margin-top: 2rem;
+    padding: 0 1rem;
     text-align: center;
+}
+
+
+iframe {
+    width: 100%;
+    max-width: 1000px;
+    height: 300px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+
 }
 
 /* Footer Styles */
